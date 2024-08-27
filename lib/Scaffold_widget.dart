@@ -11,7 +11,11 @@ class ScaffoldWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Latihan wak'),
+        title: Text(
+          'Latihan wak',
+          style: TextStyle(fontWeight: FontWeight.bold),
+        ),
+        centerTitle: true,
         leading: IconButton(onPressed: () {}, icon: Icon(Icons.home)),
         actions: [
           Text('Azek'),
